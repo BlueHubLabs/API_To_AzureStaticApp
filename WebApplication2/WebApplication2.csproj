@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="API.DataAccess">
+      <HintPath>..\..\..\Repos\AIP Latest\AltInvestment-POC\API\AIP\bin\Release\net7.0\API.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="API.Models">
+      <HintPath>..\..\..\Repos\AIP Latest\AltInvestment-POC\API\AIP\bin\Release\net7.0\API.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="API.Services">
+      <HintPath>..\..\..\Repos\AIP Latest\AltInvestment-POC\API\AIP\bin\Release\net7.0\API.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
