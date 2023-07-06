@@ -46,6 +46,9 @@ namespace WebApplication2.Controllers
             if (cityStateDetails != null && cityStateDetails.Count > 0)
             {
                 return cityStateDetails.ToList();
+
+
+
             }
             else
             {
